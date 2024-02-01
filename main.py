@@ -1,11 +1,12 @@
 def check_character(word, index):
+   x=word(index)
    if len(word) < (index-1):
       return("unknown")
-   elif word.isalpha(index)==true:
+   elif x.isalpha():
       return("letter")
-   elif word.isdigit(index)==true:
+   elif x.isdigit():
       return("digit")
-   elif word.isspace(index)==true:
+   elif x.isspace():
       return("whitespace")
    else:
       return("unknown")
