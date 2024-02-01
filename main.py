@@ -1,5 +1,5 @@
 def check_character(word, index):
-   x=word(index)
+   x=word[index]
    if len(word) < (index-1):
       return("unknown")
    elif x.isalpha():
