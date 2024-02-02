@@ -5,12 +5,11 @@ def check_character(word, index):
    elif word[index].isdigit():
       return "digit"
    elif word[index].isspace():
-       return "whitespace"
+       return "white space"
    else:
        return "unknown"
 
 
-#comment so I can push
 
 if __name__ == '__main__': 
     print(check_character('happy birthday', 2))
